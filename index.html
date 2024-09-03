@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one {
+            border:2px solid;
+            width:500px;
+            height: 400px;
+            display: flex;
+            gap:30px;
+            justify-content: center;
+            /* background-image: url(https://images.inc.com/uploaded_files/image/1920x1080/getty_626660256_2000108620009280158_388846.jpg); */
+            background-size: cover;
+            background-position: center;
+        }
+        .bite{
+            margin-top:0px;
+            animation-name:music;
+           animation-duration: 3s;
+        animation-timing-function:ease-out;
+        animation-iteration-count: infinite;
+        border: 2px solid;
+    height: 150px;
+    width: 7px;
+    border-radius: 50px;
+    background-color: rgb(47, 0, 255);
+
+
+        }
+        @keyframes music {
+            15%{
+                background-color: rgb(89, 0, 255);
+                height:10%;
+            }
+            25%{
+                background-color: rgb(42, 116, 165);
+                height:30% ;
+            }
+            50%{
+                background-color:rgb(128, 9, 0);
+                height:40%;
+
+            }
+            75%{
+                background-color: rgb(53, 52, 52);
+                height:30%;
+            }
+            100%{
+                background-color:rgb(241, 71, 8) ;
+                height:1%;
+            }
+        }
+        .bite:nth-child(1){
+            animation-delay:0.15s;
+        }
+        .bite:nth-child(2){
+            animation-delay:0.35s;
+        }
+        .bite:nth-child(3){
+            animation-delay:0.70s;
+        }
+        .bite:nth-child(4){
+            animation-delay:1s;
+        }
+        .bite:nth-child(5){
+            animation-delay:0.5s;
+        }
+        .bite:nth-child(6){
+            animation-delay:0.10s;
+        }
+        .bite:nth-child(7){
+            animation-delay:0.5s;
+        }
+        .bite:nth-child(8){
+            animation-delay:2s;
+        }
+        /* .bite:nth-child(9){
+            animation-delay:0.05s;
+        }
+        .bite:nth-child(10){
+            animation-delay:1s;
+        } */
+        .song{
+            position: relative;
+            bottom:90px;
+            left:100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="one">
+        <div class="bite"></div>
+        <div class="bite"></div>
+        <div class="bite"></div>
+        <div class="bite"></div>
+        <div class="bite"></div>
+        <div class="bite"></div>
+        <div class="bite"></div>
+        <div class="bite"></div>
+        <!-- <div class="bite"></div>
+        <div class="bite"></div> -->
+    </div>
+    <div class="song">
+        <audio controls autoplay>
+<source src="../d-5/Aa Devudu Pampina _ Brother Ringtone Download - MobCup.Com.Co.mp3"alt="">
+        </audio>
+    </div>
+</body>
+</html>

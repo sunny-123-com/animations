@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            border: 5px solid;
+            width: 200vh;
+            height: 90vh;
+            border-radius: 40px;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            left: 80px;
+        }
+
+        .wave {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            position: relative;
+            top: 350px;
+}
+
+        .dot1 {
+            width: 40px;
+            height: 40px;
+            border: 2px solid;
+            border-radius: 50px;
+            background-color: rgb(38, 0, 255);
+            border-color: yellow;
+            box-shadow: 2px 2px 2px rgb(232, 232, 152);
+            animation-name: dot1;
+            animation-duration: 2s;
+            animation-delay: 0.25s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+
+        }
+
+        @keyframes dot1 {
+            0% 100% {
+                transform: translateY(0%);
+            }
+
+            50% {
+                transform: translateY(50%);
+
+            }
+
+        }
+
+        .dot2 {
+            width: 40px;
+            height: 40px;
+            border: 2px solid;
+            border-radius: 50px;
+            background-color: red;
+            border-color: yellow;
+            box-shadow: 3px 3px 3px rgb(232, 232, 152);
+            ;
+            animation-name: dot1;
+            animation-duration: 2s;
+            animation-delay: 0.50s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        .dot3 {
+            width: 40px;
+            height: 40px;
+            border: 2px solid;
+            border-radius: 50px;
+            background-color: yellow;
+            border-color: yellow;
+            box-shadow: 3px 3px 3px rgb(232, 232, 152);
+            ;
+            animation-name: dot1;
+            animation-duration: 2s;
+            animation-delay: 0.70s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+
+        .dot4 {
+            width: 40px;
+            height: 40px;
+            border: 2px solid;
+            border-radius: 50px;
+            background-color: green;
+            border-color: yellow;
+            box-shadow: 3px 3px 3px rgb(232, 232, 152);
+            ;
+            animation-name: dot1;
+            animation-duration: 2s;
+            animation-delay: 0.90s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        .Google {
+            position: relative;
+            top: 100px;
+            left: 400px;
+            font-size: 100px;
+            top: 10px;
+        }
+
+        .a {
+            color: blue;
+        }
+
+        .b {
+            color: brown;
+        }
+
+        .c {
+            color: burlywood;
+        }
+
+        .d {
+            color: darkmagenta;
+        }
+
+        .f {
+            color: red;
+        }
+
+        .g {
+            color: green
+        }
+
+        .Search {
+            width: 500px;
+            height: 40px;
+            border-radius: 50px;
+            position: relative;
+            left: 290px;
+            top: 70px;
+            border: 2px solid;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wave">
+        <div class="dot1"></div>
+        <div class="dot2"></div>
+        <div class="dot3"></div>
+        <div class="dot4"></div>
+    </div>
+    <div class="Google">
+        <span class="a">G</span><span class="b">o</span><span class="c">o</span><span class="d">g</span><span
+            class="f">l</span><span class="g">e</span>
+    </div>
+    <input type="text" placeholder="&ensp;&ensp;&#128269;&ensp;&ensp;Search Google" class="Search">
+    </div>
+    </div>
+</body>
+</html>
